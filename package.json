@@ -1,0 +1,23 @@
+{
+  "name": "ai-text-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Production-ready Node.js backend for fixing and improving text using OpenRouter API",
+  "dependencies": {
+    "@openrouter/sdk": "^0.3.12",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
